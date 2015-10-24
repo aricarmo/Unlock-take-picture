@@ -1,7 +1,7 @@
 # Unlock-take-picture
 When users unlock with Failed Password the app take a picture
 
-***Please to send photo in e-mail you have to need change constants in config.java file***
+***Please to send photo in e-mail you have to change constants in config.java file***
 
 ***config.java***
 
