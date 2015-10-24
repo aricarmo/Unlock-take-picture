@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Configuracao">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tirar foto ao errar a senha"
+        android:id="@+id/chkErrarSenha"
+        android:layout_marginTop="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/chkTodoDesbl" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tirar foto sempre que o celular for desbloqueado"
+        android:id="@+id/chkTodoDesbl"
+        android:layout_below="@+id/chkErrarSenha"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar as fotos por e-mail"
+        android:id="@+id/chkEnvia"
+        android:layout_below="@+id/chkTodoDesbl"
+        android:layout_alignLeft="@+id/chkTodoDesbl" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar Configurações"
+        android:id="@+id/btnSalvar"
+        android:layout_marginTop="91dp"
+        android:layout_below="@+id/chkEnvia"
+        android:layout_alignLeft="@+id/chkEnvia"
+        android:layout_alignRight="@+id/chkTodoDesbl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:id="@+id/textView"
+
+        android:layout_above="@+id/txtEmail"
+        android:layout_alignLeft="@+id/txtEmail"
+        android:layout_alignStart="@+id/txtEmail" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtEmail"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnSalvar"
+        android:layout_alignStart="@+id/btnSalvar"
+        android:layout_alignRight="@+id/btnSalvar"
+        android:layout_alignEnd="@+id/btnSalvar"
+        android:textAlignment="center" />
+</RelativeLayout>
+<!-- From: file:/Users/arilsoncarmo/Desktop/Personal/Pega/pega/app/src/main/res/layout/activity_configuracao.xml -->
