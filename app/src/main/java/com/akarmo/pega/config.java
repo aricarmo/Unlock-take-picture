@@ -5,5 +5,5 @@ package com.akarmo.pega;
  */
 public class config {
     public static final String email = "Put Your email here";
-    public static final String emailPassword = "pur your pass here";
+    public static final String emailPassword = "put your pass here";
 }
